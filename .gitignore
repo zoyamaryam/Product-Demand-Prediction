@@ -1,0 +1,44 @@
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Environment and secrets
+
+.env
+.env.*
+!.env.example
+
+# Data & models
+
+backend/data/raw/*
+backend/data/processed/*
+backend/saved_models/*
+!backend/data/raw/.gitkeep
+!backend/data/processed/.gitkeep
+!backend/saved_models/.gitkeep
+
+# Node / React
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS/editor
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# SQLite DB
+
+*.db
+*.sqlite
+*.sqlite3
